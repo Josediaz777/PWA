@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta name="handleheldfriendly" content="true">
+    <meta name="theme-color" content="#333">
+    <meta name="MobileOptimized" content="width">
+    <link rel="manifest" href="manifest.json">
+
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <div class="div-title col-12 d-flex">
+        <div class="col-6">
+            <img class="logo"
+                src="data:image/jpeg;base64,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"
+                width="50" height="50" />
+        </div>
+        <div class="col-6 d-flex justify-content-center align-items-center">
+            <button class="ml-2 mr-2 text-white btn border-0">Videos</button>
+            <button class="ml-2 mr-2 text-white btn border-0">Servicios</button>
+            <button class="ml-2 mr-2 text-white btn border-0">Viajes</button>
+        </div>
+    </div>
+</head>
+
+<body>
+
+    <div class="w-100 p-4 center text-white" style="background: black">
+        <h2>Videos Mistery World</h2>
+    </div>
+    <div class="w-100 center">
+        <div class="col-8 m-4">
+            <div class="grid-columns mt-5 mb-5">
+                <div>
+
+                    <iframe width="260" height="150" src="https://www.youtube.com/embed/PFTLnLC18Qc"
+                        title="El Pueblo Fantasma más aislado que existe ☠ (Mystery World)" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p class="text-justify">Hace algunos años había amenaza nuevamente y la mayoría de gente decía que
+                        no se irían de sus casa y si es algo que suena muy loco, pero muchas personas aun teniendo a
+                        donde ir
+                        no se van del lugar, en ese momento el estado estaba presionando
+                        para evacuar y aun así se rehusaban, gracias a Dios no paso a mayores, pero si estuvo botando
+                        mucha ceniza el volcán.</p>
+                </div>
+                <div>
+                    <iframe width="260" height="150" src="https://www.youtube.com/embed/7ZSsJtKMoIE"
+                        title="Entre al Hospital que fue Abandonado por estar... ♰ ☢" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p class="text-justify">La Planchada es una leyenda Mexicana en la que se narra la historia de una
+                        enfermera fantasmal que vaga por los pasillos del hospita
+                        l y atiende a los enfermos que necesitan ayuda. Misterios de México: "La Planchada"</p>
+                </div>
+                <div>
+                    <iframe width="260" height="150" src="https://www.youtube.com/embed/ZHYSdhV_aiI"
+                        title="Visité el pueblo donde Solo hay Payasos 🤡🏚 | Clown Motel NV" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p class="text-justify">Hola! ¿Nos Extrañaron? 🎈🖤 Espero les gusten los Payasos 🤡 Enserio gracias
+                        por tanto apoyo, quisiera tenerlos en persona para darles el amor que merecen 🤡 🤡</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="w-100 p-4 center text-white" style="background: black;">
+        <h2>Servicios</h2>
+    </div>
+    <div class="w-100 center">
+        <div class="col-8 m-4">
+            <div class="grid-columns mt-5 mb-5">
+                <div>
+                    <iframe width="260" height="150" src="https://www.youtube.com/embed/PIUiMvsuF9E"
+                        title="¿Cuánto cuesta viajar a París? - Costos de Francia 2022" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p class="text-justify text-center pr-4" style="font-weight: bold;">Viaje a Francia por $35500.</p>
+                    <div class="center pr-4">
+                        <button class="btn btn-success">Solicitar informes</button>
+                    </div>
+                </div>
+                <div>
+                    <iframe width="260" height="150" src="https://www.youtube.com/embed/YnBX-dXmFCQ"
+                        title="¿Cuánto cuesta viajar a Cancún en 2021? ¿Es tan barato?" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p class="text-justify text-center pr-4" style="font-weight: bold;">Viaje a cancun por $28500.</p>
+                    <div class="center pr-4">
+                        <button class="btn btn-success">Solicitar informes</button>
+                    </div>
+                </div>
+                <div>
+                    <iframe width="260" height="150" src="https://www.youtube.com/embed/I6wgUgNfUiE"
+                        title="Toda la verdad sobre COSTOS PARA VIAJAR A HAWAII | #CuantoCuestaViajarVAM"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p class="text-justify text-center pr-4" style="font-weight: bold;">En venta por $700.</p>
+                    <div class="center pr-4">
+                        <button class="btn btn-success">Solicitar informes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="./js/app.js"></script>
+    <script src="./main.js"></script>
+    <script src="./sw.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
