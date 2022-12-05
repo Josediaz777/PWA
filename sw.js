@@ -2,12 +2,7 @@ self.addEventListener('install', e => {
     caches.open('cache-v1')
         .then( cache => cache.addAll ([
             'index.html',
-            'https://www.youtube.com/embed/7ZSsJtKMoIE',
-            'https://www.youtube.com/embed/PFTLnLC18Qc',
-            'https://www.youtube.com/embed/ZHYSdhV_aiI',
-            'https://www.youtube.com/embed/PIUiMvsuF9E',
-            'https://www.youtube.com/embed/YnBX-dXmFCQ',
-            'https://www.youtube.com/embed/I6wgUgNfUiE',
+            'gtav.jpg',
             'css/index.css',
             'js/app.js',
             'js/main.js',
